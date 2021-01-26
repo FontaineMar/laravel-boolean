@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bkg-default{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+}
+.bkg-animazione{
+    background-color: green;
+    height:20px;
+}
+.animazione{
+    background-color: green;
+    position: absolute;
+    top:0;
+    animation-name: next;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes next {
+    from {right: 0%;}
+    to {right: 100%;}
+      
+}
+nav{
+    height: 60px;
+    display: flex;
+}
+
+.nav-left{
+    width:35%;
+    display:flex;
+    align-items:center;
+}
+
+.nav-left > img {
+    width: 150px;
+    height: 40px;
+}
+
+.nav-right{
+    width: 65%;
+} 
+.nav-right > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100%;
+    list-style-type: none;
+}
+
+.nav-right > ul > li > a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.nav-right > ul > li > a:first-of-type:not(2){
+    text-decoration: underline;
+    color: rgb(0, 172, 0);
+}
+
+hr{
+    margin-top:10px;
+    margin-bottom:10px;
+}
