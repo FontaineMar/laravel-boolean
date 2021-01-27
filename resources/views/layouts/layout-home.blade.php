@@ -13,5 +13,6 @@
     @yield('candidatiMain')
     @yield('campMain')
     @yield('dopoCorsoMain')
+    @yield('cdBoolean')
   </body>
 </html>
