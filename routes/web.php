@@ -31,4 +31,5 @@ Route::get('/candidati', function () {
     return view('candidati');
 });
       
-Route::get('/dischi', 'dischiController@index');
+Route::get('/users', 'usersController@index');
+Route::get('/users/{url}', 'usersController@show');

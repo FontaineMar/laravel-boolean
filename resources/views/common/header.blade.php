@@ -15,7 +15,7 @@
           <li><a href="/dopo">dopo il corso</a></li>
           <li><a href="/camp">camp gratuito</a></li>
           <li><a href="/candidati">canditati ora</a></li>
-          <li><a href="/dischi">dischi</a></li>
+          <li><a href="/users">Users</a></li>
 
         </ul>
       </div>

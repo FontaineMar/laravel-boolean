@@ -4,7 +4,6 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Disco extends Model
+class Persona extends Model
 {
-    protected  $table = 'dischi';
-}
+    protected $table = 'users';}
