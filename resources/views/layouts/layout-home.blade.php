@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Boolean</title>
     <!-- LINK CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css-img/css/style.css') }}">
   </head>
   <body>
     @include('common.header')

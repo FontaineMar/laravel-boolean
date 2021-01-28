@@ -6,7 +6,7 @@
 <header class="bkg-default">
     <nav>
       <div class="nav-left">
-        <img src="css-img/img/index.png" alt="">
+        <img src="{{ asset('css-img/img/index.png') }}" alt="">
       </div>
       <div class="nav-right">
         <ul>
